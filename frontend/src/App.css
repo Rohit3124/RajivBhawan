@@ -1,0 +1,24 @@
+/* Comman Styles */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Satoshi", sans-serif;
+}
+
+/* Reletive Font size with screen width */
+body {
+  font-size: 16px;
+}
+
+@media (max-width: 720px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 456px) {
+  body {
+    font-size: 12px;
+  }
+}
