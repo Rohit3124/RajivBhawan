@@ -6,12 +6,16 @@
   font-family: "Satoshi", sans-serif;
 }
 
+.App {
+  max-width: 100%;
+}
+
 /* Reletive Font size with screen width */
 body {
   font-size: 16px;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   body {
     font-size: 14px;
   }

@@ -7,7 +7,7 @@ import "./Navbar.css";
 //Image Imports
 
 const Navbar = () => {
-  return <div>Recent News</div>;
+  return <div>Navbar</div>;
 };
 
 export default Navbar;
