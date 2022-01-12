@@ -1,5 +1,6 @@
 .recentNews__container {
   margin: 3em;
+  margin-bottom: 0%;
   max-width: 1216px;
   background-color: #ebf2fa;
   padding: 2.5em 3em;
@@ -47,6 +48,7 @@
 @media (min-width: 1300px) {
   .recentNews__container {
     margin: 3em auto;
+    margin-bottom: 0%;
   }
 }
 

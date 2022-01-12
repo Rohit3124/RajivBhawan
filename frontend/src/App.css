@@ -9,7 +9,9 @@
 .App {
   max-width: 100%;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 /* Reletive Font size with screen width */
 body {
   font-size: 16px;
