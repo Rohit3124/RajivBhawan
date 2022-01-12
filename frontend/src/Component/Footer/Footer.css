@@ -1,0 +1,101 @@
+/* Main Outer Container of Footer */
+.Footer__container {
+  position: relative;
+  background-color: #112d5a;
+  padding: 4em 8em;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-around;
+  column-gap: 1em;
+  flex-wrap: wrap;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.Footer__container > img {
+  width: 19em;
+  position: absolute;
+}
+
+.Footer__bgTop {
+  right: 0;
+  top: 0;
+}
+
+.Footer__bgBottom {
+  left: 0;
+  bottom: 0;
+}
+
+.Footer__content > h2 {
+  font-size: 2em;
+  width: fit-content;
+  margin-bottom: 0.5em;
+}
+
+.Footer__data {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5em;
+}
+
+.Footer__address > p {
+  font-size: 1em;
+  width: fit-content;
+}
+
+.Footer__email {
+  margin-top: 1.5em;
+}
+
+.Footer__forms {
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer__forms > a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.Footer__map {
+  z-index: 2;
+}
+
+.Footer__map > iframe {
+  width: 34em;
+  height: 26.25em;
+  max-width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .Footer__map > iframe {
+    width: 20em;
+    height: 19em;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Footer__container {
+    flex-direction: column-reverse;
+    padding: 4em 6em;
+  }
+
+  .Footer__content {
+    margin: 0 auto;
+    margin-top: 2em;
+  }
+  .Footer__map > iframe {
+    width: 100%;
+    height: 19em;
+  }
+}
+
+@media (max-width: 500px) {
+  .Footer__container {
+    padding: 4em 4em;
+  }
+}
