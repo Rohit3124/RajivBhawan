@@ -1,0 +1,10 @@
+.bgm {
+  min-height: 100vh;
+  background: linear-gradient(
+      0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)
+    ),
+    url(/src/Assets/bh6.jpeg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
