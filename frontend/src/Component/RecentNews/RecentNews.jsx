@@ -1,3 +1,4 @@
+//Created By Rahul Modi
 //Dependencies Import
 import React from "react";
 
@@ -13,6 +14,8 @@ const RecentNews = () => {
   return (
     <div className="recentNews__container">
       <h2 className="recentNews__heading">Recent News</h2>
+
+      {/* Mapping each Notice to a card */}
       <div className="recentNews__block">
         {RecentNewsData.map((obj) => {
           return (

@@ -1,3 +1,4 @@
+/* Main outer Container of recent news */
 .recentNews__container {
   margin: 3em;
   max-width: 1216px;
@@ -5,12 +6,14 @@
   padding: 2.5em 3em;
 }
 
+/* Recent News Heading */
 .recentNews__heading {
   position: relative;
   font-size: 1.75em;
   font-weight: bold;
 }
 
+/* Recent News Card Container */
 .recentNews__block {
   position: relative;
   display: flex;
