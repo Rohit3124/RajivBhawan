@@ -8,6 +8,7 @@ import RecentNews from "./Component/RecentNews/RecentNews";
 import Welcome from "./Component/Welcome/Welcome";
 import About from "./Component/About/About";
 import Facilities from "./Component/Facilities/Facilities";
+import OurGallery from "./Component/OurGallery/OurGallery";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Welcome />
       <RecentNews />
       <About />
+      <OurGallery />
       <Facilities />
       <Footer />
     </div>
