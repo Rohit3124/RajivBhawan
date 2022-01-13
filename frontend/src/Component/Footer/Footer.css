@@ -1,5 +1,6 @@
 /* Main Outer Container of Footer */
 .Footer__container {
+  margin-top: 3em;
   position: relative;
   background-color: #112d5a;
   padding: 4em 8em;
@@ -65,8 +66,8 @@
 }
 
 .Footer__map > iframe {
-  width: 34em;
-  height: 26.25em;
+  width: 30em;
+  height: 23em;
   max-width: 100%;
 }
 

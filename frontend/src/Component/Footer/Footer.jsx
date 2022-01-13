@@ -14,7 +14,7 @@ const contactFormLink = "./";
 
 const Footer = () => {
   return (
-    <div className="Footer__container">
+    <div className="Footer__container" id="contactus">
       <img className="Footer__bgTop" src={FooterTop} alt="Bg Design" />
       <div className="Footer__content">
         <h2>Contact Us</h2>
