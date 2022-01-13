@@ -1,3 +1,7 @@
+//Recent News Data
+// Displayed according to the id number(1 to 4)
+//Each field is must required
+
 const RecentNewsData = [
   {
     id: 1,
