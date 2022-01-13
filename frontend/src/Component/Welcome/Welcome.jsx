@@ -2,7 +2,7 @@ import React from "react";
 import "./Welcome.css";
 export default function Welcome() {
   return (
-    <div className="bgm">
+    <div id="Home" className="bgm">
       <div className="welcome">
         <p className="greet"> Welcome to Rajiv Bhawan </p>
         <p className="desc">

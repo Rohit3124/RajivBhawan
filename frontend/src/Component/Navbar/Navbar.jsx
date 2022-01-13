@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="navigation">
           <nav id="nav-menu-container">
             <li id="logo" classname="pull-left">
-              <a href="#">
+              <a href="#Home">
                 <h1>RAJIV BHAWAN</h1>
               </a>
             </li>
