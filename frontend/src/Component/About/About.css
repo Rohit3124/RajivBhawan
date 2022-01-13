@@ -19,26 +19,26 @@
   line-height: 1.5em;
 }
 .about img {
-  width: auto;
-  max-height: 70vh;
+  max-width: 40vw;
+  height: auto;
   margin-left: 2em;
 }
-@media (max-width: 1080px){
-      .about img {
-        width: auto;
-        max-height: 70vh;
-        margin: 2em;
-        margin-top: 0%;
-      }
-      .about .heading {
-        margin: 1em;
-        margin-bottom: 0;
-        margin-top: 0;
-      }
-      .about .desc {
-        margin: 2em;
-        margin-top: 0;
-      }
+@media (max-width: 1080px) {
+  .about img {
+    width: auto;
+    max-height: 70vh;
+    margin: 2em;
+    margin-top: 0%;
+  }
+  .about .heading {
+    margin: 1em;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .about .desc {
+    margin: 2em;
+    margin-top: 0;
+  }
 }
 @media (max-width: 768px) {
   .about {
