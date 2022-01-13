@@ -1,0 +1,75 @@
+.Facilities{
+    max-width: 1020px;
+    margin: auto;
+    padding-top: 3em;
+}
+.facility{
+    margin-top: 5em;
+    display: flex;
+}
+.facility .heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+}
+.facility .content{
+    display: flex;
+    flex-direction: column;
+}
+.facility .desc{
+    margin-top: 1em;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+.facility .content a{
+    margin-top: 2em;
+    font-size: 1.25em;
+    font-weight: bolder;
+    color: #5281B8;
+}
+.facility img:nth-child(even) {
+    width: auto;
+    height: 60vh;
+    margin-left: 2em;
+}
+.facility img:nth-child(odd) {
+    width: auto;
+    height: 60vh;
+    margin-right: 2em;
+}
+
+.others{
+    max-width: 1180px;
+    border: solid 2px #EBF2FA;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 3em;
+}
+.others .container{
+    max-width: 1080px;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.container .mainheading{
+    font-weight: bolder;
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+.others .container .content{
+    display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.block{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.block .heading{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+.block .desc{
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
