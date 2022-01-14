@@ -5,11 +5,10 @@
   padding: 0px;
   font-family: "Satoshi", sans-serif;
 }
-
 .App {
   max-width: 100%;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 /* Reletive Font size with screen width */

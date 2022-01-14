@@ -9,6 +9,7 @@ import Welcome from "./Component/Welcome/Welcome";
 import About from "./Component/About/About";
 import Facilities from "./Component/Facilities/Facilities";
 import OurGallery from "./Component/OurGallery/OurGallery";
+import OurTeam from "./Component/OurTeam/OurTeam";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <About />
       <OurGallery />
       <Facilities />
+      <OurTeam />
       <Footer />
     </div>
   );
