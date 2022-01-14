@@ -1,0 +1,58 @@
+/* Main Outer Container of OyoCampus*/
+.oyoCampus__container {
+  position: relative;
+  background-color: #ebf2fa;
+  max-width: 1200px;
+  width: 90vw;
+  padding: 2em;
+  margin: 2em auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.oyoCampus__content {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.75em;
+}
+
+.oyoCampus__heading {
+  font-size: 1.5em;
+}
+
+.oyoCampus__content > p {
+  font-size: 1em;
+  color: #4c5767;
+}
+
+.oyoCampus__googleBadge {
+  max-width: 154px;
+  aspect-ratio: initial;
+}
+
+.oyoCampus__oyoLogo {
+  position: relative;
+  align-self: center;
+  max-width: 190px;
+  max-height: 100%;
+  flex: 1;
+}
+
+@media (max-width: 700px) {
+  .oyoCampus__container {
+    width: 90vw;
+    padding: 2em;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 1em;
+  }
+  .oyoCampus__oyoLogo {
+    width: 50%;
+  }
+  .oyoCampus__content {
+    max-width: 100%;
+  }
+}
