@@ -10,6 +10,7 @@ import About from "./Component/About/About";
 import Facilities from "./Component/Facilities/Facilities";
 import OurGallery from "./Component/OurGallery/OurGallery";
 import OurTeam from "./Component/OurTeam/OurTeam";
+import OyoCampus from "./Component/OyoCampus/OyoCampus";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <OurGallery />
       <Facilities />
       <OurTeam />
+      <OyoCampus />
       <Footer />
     </div>
   );
