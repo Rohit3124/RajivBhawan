@@ -48,7 +48,7 @@
     flex-direction: column-reverse;
   }
   .about img {
-    max-width: none;
+    max-width: 90%;
     margin: 2em;
     margin-top: 0%;
   }

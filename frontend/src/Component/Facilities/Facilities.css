@@ -28,8 +28,9 @@
   color: #5281b8;
 }
 .facility img {
+  align-self: center;
   width: 100%;
-  max-width: 38vw;
+  max-width: 50%;
   height: auto;
 }
 .facility img:nth-child(even) {
