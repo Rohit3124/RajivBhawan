@@ -15,7 +15,7 @@ const OurTeam = () => {
       <div className="ourTeam__member">
         {OurTeamData.map((obj, indx) => {
           return (
-            <div className="ourTeam__teamCard">
+            <div key={indx} className="ourTeam__teamCard">
               <img src={obj.img} alt={obj.name} />
               <p className="ourTeam__memberPos">{obj.position}</p>
               <p className="ourTeam__memberName">{obj.name}</p>
