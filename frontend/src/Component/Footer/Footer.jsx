@@ -43,7 +43,7 @@ const Footer = () => {
           title="rajiv bhawan location"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5788.498981101909!2d77.89128976776507!3d29.869998962972947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb3649f4b7ed3%3A0x8fe8006f00f0480f!2sRajiv%20Bhawan!5e0!3m2!1sen!2sin!4v1642010625410!5m2!1sen!2sin"
           style={{ border: "0", aspectRatio: "544/420" }}
-          allowfullscreen="no"
+          allowFullScreen="no"
           loading="lazy"
         ></iframe>
       </div>

@@ -1,0 +1,40 @@
+/* Main Outer Container of OurGallery*/
+.ourGallery__container {
+  background-color: #eff2f5;
+}
+
+.ourGallery__content {
+  max-width: 1440px;
+  padding: 2em;
+  padding-right: 0;
+  margin: 0 auto;
+}
+
+.ourGallery__heading {
+  font-size: 1.75em;
+  font-weight: 700;
+}
+
+.ourGallery__carousel {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1em;
+  overflow-x: scroll;
+  width: 100%;
+  margin-top: 1em;
+}
+
+.ourGallery__carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.ourGallery__carousel > img {
+  width: 40%;
+  aspect-ratio: 480/360;
+}
+
+@media (max-width: 456px) {
+  .ourGallery__carousel > img {
+    width: 70%;
+  }
+}

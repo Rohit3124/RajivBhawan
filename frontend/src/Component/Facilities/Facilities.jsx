@@ -38,7 +38,7 @@ export default function Facilities() {
               no worry! As our canteen has best food available and at very
               reasonable price. It remains open till 2 am from 2:30 pm.
             </p>
-            <a href="">Download Canteen Menu</a>
+            <a href="./">Download Canteen Menu</a>
           </div>
         </div>
         <div className="facility">
