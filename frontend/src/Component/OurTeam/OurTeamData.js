@@ -1,11 +1,9 @@
 //Image Import
-import TeamTest from "../../Assets/OurTeam/TeamTest.png";
 import cw from "../../Assets/OurTeam/cw.jpeg";
 import supervisor from "../../Assets/OurTeam/supervisor.jpeg";
 import aw from "../../Assets/OurTeam/aw.jpeg";
 import mw from "../../Assets/OurTeam/mw.png";
 import wwr from "../../Assets/OurTeam/wwr.jpg";
-import rw from "../../Assets/OurTeam/rw.jpeg";
 import bs from "../../Assets/OurTeam/bs.jpg";
 import ts from "../../Assets/OurTeam/ts.jpeg";
 import ms from "../../Assets/OurTeam/ms.jpg";
