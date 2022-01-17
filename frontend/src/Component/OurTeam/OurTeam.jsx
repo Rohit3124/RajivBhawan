@@ -16,7 +16,14 @@ const OurTeam = () => {
         {OurTeamData.map((obj, indx) => {
           return (
             <div key={indx} className="ourTeam__teamCard">
-              <img src={obj.img} alt={obj.name} />
+              <div className="img_container">
+                <img src={obj.img} alt={obj.name} />
+                <div className="img_hover_content">
+                  <div className="content_mail">{obj.mail}</div>
+                  <div className="content_phone1">{obj.phone1}</div>
+                  <div className="content_phone2">{obj.phone2}</div>
+                </div>
+              </div>
               <p className="ourTeam__memberPos">{obj.position}</p>
               <p className="ourTeam__memberName">{obj.name}</p>
             </div>

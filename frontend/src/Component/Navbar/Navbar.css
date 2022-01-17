@@ -13,17 +13,6 @@
   box-shadow: 0px 1px 4px rgba(76, 76, 76, 0.2);
 }
 
-.navbar__logo {
-  font-size: 1.25em;
-  text-decoration: none;
-<<<<<<< HEAD
-  color: #2a2a2a;
-  cursor: pointer;
-=======
-  font-weight: 700;
-  color: #112d5a;
->>>>>>> 3b0bfebd5adaf418ab23f8e74910f75c3d925ba1
-}
 
 .navbar__navMenu {
   transition: height 1s linear;
@@ -36,10 +25,17 @@
 }
 
 .navbar__navMenu > li > a {
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: 400;
   text-decoration: none;
   color: #2a2a2a;
+}
+
+.navbar__logo {
+  font-size: 1.25em;
+  text-decoration: none;
+  font-weight: 700;
+  color: #112d5a;
 }
 
 @media (max-width: 800px) {
