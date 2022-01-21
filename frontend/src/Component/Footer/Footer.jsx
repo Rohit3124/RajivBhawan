@@ -9,8 +9,8 @@ import "./Footer.css";
 import FooterTop from "../../Assets/FooterTop.svg";
 import FooterBottom from "../../Assets/FooterBottom.svg";
 
-const feedbackFormLink = "./";
-const contactFormLink = "./";
+const feedbackFormLink = "https://forms.gle/vBNSDMcy1DHCxo6u9";
+const contactFormLink = "https://wellness.iitr.ac.in/";
 
 const Footer = () => {
   return (
@@ -33,8 +33,8 @@ const Footer = () => {
             <p className="Footer__phno">01332-284-520</p>
           </div>
           <div className="Footer__forms">
-            <a href={feedbackFormLink}>Feedback Form</a>
-            <a href={contactFormLink}>Contact Form</a>
+            <a href={feedbackFormLink} target="_blank">Feedback Form</a>
+            <a href={contactFormLink} target="_blank">Wellness Center</a>
           </div>
         </div>
       </div>

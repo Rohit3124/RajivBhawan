@@ -20,6 +20,7 @@
   flex-direction: row;
   column-gap: 1em;
   overflow-x: scroll;
+  overflow-y: none;
   width: 100%;
   margin-top: 1em;
 }
