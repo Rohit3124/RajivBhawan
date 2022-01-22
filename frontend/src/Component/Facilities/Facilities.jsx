@@ -2,10 +2,10 @@ import React from "react";
 
 import "./Facilities.css";
 
-import Mess from "../../Assets/fmess.jpeg";
-import canteen from "../../Assets/fcanteen.jpeg";
-import wash from "../../Assets/fwash.jpeg";
-import tv from "../../Assets/ftv.jpeg";
+import Mess from "../../Assets/fmess.jpg";
+import canteen from "../../Assets/fcanteen.jpg";
+import wash from "../../Assets/fwash.jpg";
+import tv from "../../Assets/ftv.jpg";
 export default function Facilities() {
   return (
     <>

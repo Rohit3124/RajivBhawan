@@ -1,15 +1,10 @@
 .bgm {
   position: relative;
   min-height: 100vh;
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url(/src/Assets/bh6.jpeg);
+  background-image:
+    url(/src/Assets/welcome_img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
 }
 .welcome {
   position: absolute;

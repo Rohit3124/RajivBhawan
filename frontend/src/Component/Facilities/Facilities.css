@@ -30,7 +30,7 @@
 .facility img {
   align-self: center;
   width: 100%;
-  max-width: 50%;
+  max-width: 48%;
   height: auto;
 }
 .facility img:nth-child(even) {
