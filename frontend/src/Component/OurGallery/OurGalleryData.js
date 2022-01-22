@@ -1,23 +1,19 @@
-import fcanteen from "../../Assets/fcanteen.jpeg";
-import fmess from "../../Assets/fmess.jpeg";
+function importAll(r) {
+  let images = [];
+  r.keys()
+    .reverse()
+    .map((item, index) => {
+      images.push({
+        id: index + 1,
+        img: require(`../../Assets/OurGallery${item.replace("./", "/")}`),
+      });
+    });
+  console.log(images);
+  return images;
+}
 
-const OurGalleryData = [
-  {
-    id: 1,
-    img: fcanteen,
-  },
-  {
-    id: 2,
-    img: fmess,
-  },
-  {
-    id: 3,
-    img: fcanteen,
-  },
-  {
-    id: 4,
-    img: fmess,
-  },
-];
+const OurGalleryData = importAll(
+  require.context("../../Assets/OurGallery", false, /\.(png|jpe?g|svg)$/)
+);
 
 export default OurGalleryData;
