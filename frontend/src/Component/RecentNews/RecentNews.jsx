@@ -22,7 +22,7 @@ const RecentNews = () => {
             <div className="recentNews__card" key={obj.id}>
               <p className="recentNews__date">{obj.date}</p>
               <p className="recentNews__desp">{obj.description}</p>
-              <a href={obj.Link} className="recentNews__link">
+              <a href={obj.Link} className="recentNews__link" target="_blank">
                 Read more
               </a>
             </div>

@@ -5,27 +5,27 @@
 const RecentNewsData = [
   {
     id: 1,
-    date: "24 Dec 2021",
-    description: "Installation of Wi-Fi routers in the bhawan campus.",
-    Link: "/",
+    date: "14 Jan 2022",
+    description: "Change in Bhawan entry-exit timings",
+    Link: "https://drive.google.com/file/d/1x2LmVOZS9ES9djVCd1hkSbcdL2iGX-Ih/view?usp=sharing",
   },
   {
     id: 2,
-    date: "3 Jan 2021",
-    description: "Mess menu from 26/12 to 1/1 available now.",
-    Link: "/",
+    date: "03 Jan 2022",
+    description: "Guidelines of Gymnasium.",
+    Link: "https://drive.google.com/file/d/1-Ynjcmf0o4pgcGyx9S2vOZnWlyadZlPM/view?usp=sharing",
   },
   {
     id: 3,
-    date: "24 Dec 2021",
-    description: "Installation of Wi-Fi routers in the bhawan campus.",
-    Link: "/",
+    date: "03 Jan 2022",
+    description: "New Covid Guidlines in bhawan premises.",
+    Link: "https://drive.google.com/file/d/1EF4Sw5s8dg53lSGJD-LZrrb8Vll__gQh/view?usp=sharing",
   },
   {
     id: 4,
-    date: "3 Jan 2021",
-    description: "Mess menu from 26/12 to 1/1 available now.",
-    Link: "/",
+    date: "03 Jan 2022",
+    description: "Gym will be operational in a slot-wise manner from 8th Jan.",
+    Link: "https://drive.google.com/file/d/11VnCCpQYGrC71IYnScFAmtuaeRG_fmtB/view?usp=sharing",
   },
 ];
 
