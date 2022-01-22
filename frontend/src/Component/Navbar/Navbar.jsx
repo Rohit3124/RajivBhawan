@@ -8,7 +8,7 @@ import "./Navbar.css";
 //Image Imports
 
 const Navbar = () => {
-  const [isHamburgerOpen, setIsHamburgerOpen] = useState(true);
+  const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
 
   const HamburgerHandler = () => {
     setIsHamburgerOpen((prevstate) => {
