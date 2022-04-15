@@ -1,7 +1,7 @@
 function importAll(r) {
   let images = [];
   r.keys()
-    .reverse()
+    // .reverse()
     .map((item, index) => {
       images.push({
         id: index + 1,
