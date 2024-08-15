@@ -1,0 +1,39 @@
+.notice-board {
+  max-width: 1200px;
+  width: 90vw;
+  border: solid 2px #ebf2fa;
+  border-radius: 5px;
+  margin: auto;
+}
+.notice-board-header {
+  background-color: #eff2f5;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.notice-date-header {
+  width: 6rem;
+  text-align: start;
+}
+
+.notice-subject-header {
+  text-align: start;
+}
+.notice-board-content {
+  padding: 1rem 2rem;
+}
+.notice-subject > a {
+  text-decoration: none;
+  color: black;
+}
+
+.notice-subject > a:hover {
+  color: blue;
+}
+@media (max-width: 768px) {
+  .notice-date-header,
+  .notice-date {
+    padding-right: 0.5rem;
+  }
+}

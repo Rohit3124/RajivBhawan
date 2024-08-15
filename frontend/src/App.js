@@ -10,6 +10,7 @@ import About from "./Component/About/About";
 import Facilities from "./Component/Facilities/Facilities";
 import OurGallery from "./Component/OurGallery/OurGallery";
 import OurTeam from "./Component/OurTeam/OurTeam";
+import NoticeBoard from "./Component/NoticeBoard/noticeBoard";
 import OyoCampus from "./Component/OyoCampus/OyoCampus";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <OurGallery />
       <Facilities />
       <OurTeam />
+      <NoticeBoard />
       <OyoCampus />
       <Footer />
     </div>

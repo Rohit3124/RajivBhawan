@@ -43,6 +43,11 @@ const Navbar = () => {
           </a>
         </li>
         <li>
+          <a onClick={LinkHandler} href="#noticeBoard">
+            NOTICE BOARD
+          </a>
+        </li>
+        <li>
           <a onClick={LinkHandler} href="#contactus">
             CONTACT US
           </a>
