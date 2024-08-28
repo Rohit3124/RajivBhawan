@@ -5,6 +5,9 @@
   border-radius: 5px;
   margin: auto;
 }
+#noticeBoard {
+  padding-top: 5rem;
+}
 .notice-board-header {
   background-color: #eff2f5;
   padding: 1rem 2rem;
@@ -16,7 +19,9 @@
   width: 6rem;
   text-align: start;
 }
-
+.notice-date {
+  display: flex;
+}
 .notice-subject-header {
   text-align: start;
 }
