@@ -11,7 +11,6 @@ import Facilities from "./Component/Facilities/Facilities";
 import OurGallery from "./Component/OurGallery/OurGallery";
 import OurTeam from "./Component/OurTeam/OurTeam";
 import NoticeBoard from "./Component/NoticeBoard/noticeBoard";
-import OyoCampus from "./Component/OyoCampus/OyoCampus";
 
 function App() {
   return (
@@ -24,7 +23,6 @@ function App() {
       <Facilities />
       <OurTeam />
       <NoticeBoard />
-      <OyoCampus />
       <Footer />
     </div>
   );

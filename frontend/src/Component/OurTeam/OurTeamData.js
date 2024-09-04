@@ -10,6 +10,7 @@ import ms from "../../Assets/OurTeam/ms.jpg";
 import mss from "../../Assets/OurTeam/mss.jpeg";
 import cs from "../../Assets/OurTeam/cs.jpeg";
 import ss from "../../Assets/OurTeam/ss.jpeg";
+import ws from "../../Assets/OurTeam/ws.jpeg";
 
 const OurTeamData = [
   {
@@ -17,22 +18,22 @@ const OurTeamData = [
     name: "Uaday Singh",
     position: "Chief Warden",
     img: cw,
-    mail: "uaday.singh@ma.iitr.ac.in",
-    phone1: "+91 13322 85430",
+    mail: "cw.rajivbhawan@iitr.ac.in",
+    phone1: "+91 01332 281520",
     phone2: "",
   },
   {
     id: 2,
-    name: "Ashish Kumar Dhingya",
+    name: "Ramesh Rawat",
     position: "Supervisor",
     img: supervisor,
     mail: "rajivbhawan@iitr.ac.in",
-    phone1: "+91 70606 16348",
+    phone1: "+91 90126 22318",
     phone2: "",
   },
   {
     id: 3,
-    name: "AJIT Kumar",
+    name: "Ajit Kumar",
     position: "Assistant warden",
     img: aw,
     mail: "a_kumar@wr.iitr.ac.in",
@@ -50,11 +51,11 @@ const OurTeamData = [
   },
   {
     id: 5,
-    name: "Prof. Puneet Gupta",
-    position: "Mess Warden",
+    name: "Siddhartha Khare",
+    position: "Warden",
     img: mw,
-    mail: "puneet.gupta@cy.iitr.ac.in",
-    phone1: "+91 75187 81326",
+    mail: "siddhartha.khare@ce.iitr.ac.in",
+    phone1: "+91 01332 285459",
     phone2: "",
   },
   {
@@ -86,11 +87,11 @@ const OurTeamData = [
   },
   {
     id: 9,
-    name: "Ekansh Nayak",
+    name: "Nimmala Sai Bhargav",
     position: "Maintainance secy",
     img: mss,
-    mail: "ekansh_n@ch.iitr.ac.in",
-    phone1: "+91 94130 96891",
+    mail: "n_sbharghav@cs.iitr.ac.in",
+    phone1: "+91 86882 09485",
     phone2: "",
   },
   {
@@ -98,17 +99,26 @@ const OurTeamData = [
     name: "Anirudh Deol",
     position: "Social and cultural Secy",
     img: cs,
-    mail: "",
+    mail: "a_deol@ch.iitr.ac.in",
     phone1: "+91 95177 97038",
     phone2: "",
   },
   {
     id: 11,
-    name: "Aditya Sindhu",
+    name: "Rishab Jagga",
     position: "Sports secy",
     img: ss,
-    mail: "aditya_s1@ce.iitr.ac.in",
-    phone1: "+91 99717 61017",
+    mail: "r_jagga@ce.iitr.ac.in",
+    phone1: "+91 97809 51707",
+    phone2: "",
+  },
+    {
+    id: 12,
+    name: "Aman gupta",
+    position: "Wellness secy",
+    img: ws,
+    mail: "a_gupta5@ce.iitr.ac.in",
+    phone1: "+91 89207 30774",
     phone2: "",
   },
 ];
